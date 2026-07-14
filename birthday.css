@@ -1,0 +1,80 @@
+body{
+    font-family : 'Happy Monkey',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background : linear-gradient(skyblue,pink) ;
+    color : white ;
+    font-size : 20px ;
+}
+#birthdaypersonphoto{
+    border : 10px solid #efb0c9 ;
+    border-radius : 50% ;
+    width : 25% ;
+    height : 25% ;
+}
+.info{
+    display : flex ;
+    flex-direction : column ;
+    align-items : center ;
+}
+h1 , h2 , h3 , h4{
+    text-shadow : 0px 0px 4px black ;
+}
+#bdayage{
+    background : #efb0c9 ;
+    padding : 10px 20px ;
+    border-radius : 5px ;
+    margin: 10px 0 10px 0 ;
+}
+#bdaydate{
+    margin : 0px ;
+    background : #efb0c9 ;
+    padding : 10px 20px ;
+    border-radius : 5px ;
+}
+.giftbox{
+    display : flex ;
+    flex-direction : column ;
+    align-items : center ;
+    margin-top : 50px ;
+}
+.giftimg{
+    width : 400px ;
+    height : 400px ;
+    border : 5px solid white ;
+    background-image : url("./gift-cover.jpg");
+    background-size : cover ;
+}
+#gift-cheers{
+    height : 200px ;
+}
+#gift-happy:hover {
+    background-image : url("./happy.gif");
+}
+#gift-enter:hover{
+    background-image : url("./hot.gif");
+}
+#gift-genius:hover{
+    background-image : url("./genius.gif");
+}
+#gift-badass:hover{
+    background-image : url("./badass.gif");
+}
+#gift-cheers:hover{
+    background-image : url("./cheers.gif");
+}
+.howhappy{
+    margin : 0px 0px 5px 0px ;
+}
+.gifthove{
+    margin : 10px 0px 40px 0px ;
+}
+#footer{
+    margin : 40px auto 0px auto ;
+    display : block ;
+    width : 400px ;
+    text-align : center ;
+    font-family: italic ;
+}
+a{
+    color : white ;
+}
+
